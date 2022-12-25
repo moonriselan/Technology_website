@@ -1,19 +1,18 @@
-/*
-0 - 600px:      Phone
-600 - 900px:    Tablet portrait
-900 - 1200px:   Tablet landscape
-[1200 - 1800] is where our normal styles apply
-1800px + :      Big desktop
----------------------------------------------------
-$breakpoint argument choices:
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "sass/abstracts/variables";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\base\_base.scss 1:9  @import
+ *   sass\main.scss 4:28       root stylesheet */
 
-- phone
-- tab-port
-- tab-land
-- big-desktop
-
-ORDER: Base + typography > general layout + grid > page layout > components
-1em = 16px
-*/
-
-/*# sourceMappingURL=style.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"sass/abstracts/variables\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\base\\_base.scss 1:9  @import\a   sass\\main.scss 4:28       root stylesheet";
+}

@@ -1,7 +1,9 @@
+@import "normalize";
+@import "abstracts/variables";
 @import "abstracts/functions";
-@import "abstracts/_mixins";
-@import "abstracts/_variables";
+@import "abstracts/mixins";
 @import "base/animations", "base/base", "base/typography", "base/utilities";
 @import "components/bg-video", "components/button", "components/card", "components/composition", "components/feature-box", "components/form", "components/popup", "components/story";
 @import "layout/footer", "layout/grid", "layout/header", "layout/navigation";
 @import "pages/home";
+
